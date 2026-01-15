@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Billboard Advertising - MC Outdoor Media</title>
+    <meta name="description" content="Professional billboard advertising solutions in Columbus, Ohio. Request a custom proposal and mockup for your business.">
+    
+    <!-- Close Form Script -->
+    <script src="https://webforms.closeiоcdn.com/webforms.js" type="module" crossorigin="anonymous" defer></script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.8;
+            color: #2c3e50;
+            background: #f4f6f8;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            background: white;
+            border-radius: 4px;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.08);
+            overflow: hidden;
+            border-top: 4px solid #2c3e50;
+        }
+        
+        .header {
+            background: white;
+            color: #2c3e50;
+            padding: 50px 40px 30px;
+            text-align: center;
+            border-bottom: 1px solid #e8ebed;
+        }
+        
+        .logo {
+            font-size: 14px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: #7f8c8d;
+            margin-bottom: 20px;
+            font-weight: 400;
+        }
+        
+        .header h1 {
+            font-size: 36px;
+            margin-bottom: 15px;
+            font-weight: 400;
+            color: #2c3e50;
+            line-height: 1.3;
+        }
+        
+        .header p {
+            font-size: 18px;
+            color: #546e7a;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.6;
+        }
+        
+        .value-proposition {
+            padding: 40px;
+            background: #fafbfc;
+        }
+        
+        .value-proposition h2 {
+            font-size: 22px;
+            margin-bottom: 25px;
+            color: #2c3e50;
+            font-weight: 400;
+            text-align: center;
+        }
+        
+        .value-item {
+            margin-bottom: 25px;
+            padding-bottom: 25px;
+            border-bottom: 1px solid #e8ebed;
+        }
+        
+        .value-item:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+        
+        .value-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 8px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+        
+        .value-description {
+            font-size: 15px;
+            color: #546e7a;
+            line-height: 1.7;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1px;
+            background: #e8ebed;
+            margin: 0;
+        }
+        
+        .stat-box {
+            background: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 36px;
+            font-weight: 300;
+            color: #2c3e50;
+            display: block;
+            margin-bottom: 8px;
+        }
+        
+        .stat-label {
+            font-size: 13px;
+            color: #7f8c8d;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+        
+        .form-container {
+            padding: 50px 40px;
+            background: white;
+        }
+        
+        .form-header {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+        
+        .form-header h2 {
+            font-size: 28px;
+            color: #2c3e50;
+            margin-bottom: 12px;
+            font-weight: 400;
+        }
+        
+        .form-header p {
+            font-size: 16px;
+            color: #546e7a;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+        
+        close-form {
+            display: block;
+        }
+        
+        .trust-indicators {
+            background: #fafbfc;
+            padding: 30px 40px;
+            border-top: 1px solid #e8ebed;
+            text-align: center;
+        }
+        
+        .trust-item {
+            display: inline-block;
+            margin: 0 20px;
+            font-size: 13px;
+            color: #546e7a;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+        
+        .trust-icon {
+            color: #27ae60;
+            margin-right: 6px;
+        }
+        
+        .footer {
+            background: #2c3e50;
+            color: white;
+            padding: 30px 40px;
+            text-align: center;
+        }
+        
+        .footer-logo {
+            font-size: 12px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            opacity: 0.7;
+            margin-bottom: 15px;
+        }
+        
+        .footer p {
+            font-size: 14px;
+            margin-bottom: 8px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+        
+        .footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .header {
+                padding: 40px 25px 25px;
+            }
+            
+            .header h1 {
+                font-size: 28px;
+            }
+            
+            .value-proposition,
+            .form-container,
+            .footer {
+                padding: 30px 25px;
+            }
+            
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .trust-item {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <div class="logo">MC Outdoor Media</div>
+            <h1>Professional Billboard Advertising Solutions</h1>
+            <p>Strategic outdoor advertising placement for discerning businesses in Columbus, Ohio</p>
+        </div>
+        
+        <!-- Stats Grid -->
+        <div class="stats-grid">
+            <div class="stat-box">
+                <span class="stat-number">30,000+</span>
+                <span class="stat-label">Daily Impressions</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number">Prime</span>
+                <span class="stat-label">Georgesville Location</span>
+            </div>
+        </div>
+        
+        <!-- Value Proposition -->
+        <div class="value-proposition">
+            <h2>Why Partner With MC Outdoor Media</h2>
+            
+            <div class="value-item">
+                <div class="value-title">Strategic Placement</div>
+                <div class="value-description">
+                    Our Georgesville Road location captures high-traffic commuter routes, ensuring your message reaches decision-makers in their daily routine.
+                </div>
+            </div>
+            
+            <div class="value-item">
+                <div class="value-title">Professional Design Services</div>
+                <div class="value-description">
+                    Our experienced design team creates billboard advertisements that balance visual impact with message clarity, optimized for high-speed viewing.
+                </div>
+            </div>
+            
+            <div class="value-item">
+                <div class="value-title">Flexible Campaign Terms</div>
+                <div class="value-description">
+                    Month-to-month agreements allow you to test, measure, and adjust your outdoor advertising strategy without long-term commitments.
+                </div>
+            </div>
+            
+            <div class="value-item">
+                <div class="value-title">Measurable Performance</div>
+                <div class="value-description">
+                    Regular proof-of-performance documentation and consultation ensure your campaign objectives are being met.
+                </div>
+            </div>
+        </div>
+        
+        <!-- Form Section -->
+        <div class="form-container">
+            <div class="form-header">
+                <h2>Request a Custom Proposal</h2>
+                <p>We'll create a complimentary mockup and detailed campaign proposal for your review</p>
+            </div>
+            
+            <!-- CLOSE FORM EMBED - REPLACE WITH YOUR FORM ID FOR MCOUTDOORMEDIA.COM -->
+            <close-form id="form_032AWqXHb7LvERZIzeOb8H"></close-form>
+        </div>
+        
+        <!-- Trust Indicators -->
+        <div class="trust-indicators">
+            <div class="trust-item">
+                <span class="trust-icon">✓</span>
+                Trusted by Columbus Businesses
+            </div>
+            <div class="trust-item">
+                <span class="trust-icon">✓</span>
+                Professional Design Team
+            </div>
+            <div class="trust-item">
+                <span class="trust-icon">✓</span>
+                No Long-Term Contracts
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footer-logo">MC Outdoor Media</div>
+            <p>📞 <a href="tel:6147398252">614-739-8252</a></p>
+            <p>✉️ <a href="mailto:sales@mcoutdoormedia.com">sales@mcoutdoormedia.com</a></p>
+            <p style="margin-top: 20px; font-size: 12px; opacity: 0.6;">
+                Columbus, Ohio | Professional Outdoor Advertising Solutions
+            </p>
+        </div>
+    </div>
+</body>
+</html>
